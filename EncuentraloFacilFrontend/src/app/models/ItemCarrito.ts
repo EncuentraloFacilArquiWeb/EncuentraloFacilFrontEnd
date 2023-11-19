@@ -1,4 +1,5 @@
 export interface ItemCarrito {
+  id: number
   price: number | undefined
   category: string | undefined
   brand: string | undefined

@@ -100,6 +100,7 @@ showDialog(id:number): void {
 
 agregarCarrito(item: Product){
   let iCarrito: ItemCarrito = {
+    id: item.id,
     category: item.category,
     brand: item.brand,
     price: item.price,
